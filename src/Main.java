@@ -62,7 +62,8 @@ public class Main {
                         printList();
                         int optionRemove = Integer.parseInt(scanner.nextLine());
                         itemArrayList.remove(optionRemove - 1);
-                        System.out.println("Item removed. ");
+                        System.out.println("Item removed! ");
+                        printList();
                         continue;
 
                     case 3:
